@@ -1,32 +1,37 @@
-.header-wrapper {
-    float: none;
-    padding: 10px 30px 10px 30px;
-    background: #0066ff;
-    height: 60px;
-}
-.right-container {
-    float: right;
-    padding: 10px 30px 10px 30px;
-    background: #62ad00;
-}
-.text-deco {
-    text-decoration: none;
-}
-.SignInCss {
-    background-color:#0077C5;
-    border: solid 1px#0077C5;
-    border-radius: 4px;
-    color: white;
-    height: 34px;
-    padding: 20px;
-    cursor: pointer;
-    float: left;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: #ECEEF1;
 }
 
-.txt-left {
-    float: left;
+.float-right {
+    float: right;
 }
+
 .display-flex {
     display: flex;
-    
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    color: black;
+}
+
+.button-sign-in {
+    padding: 0.5rem;
+    margin-left: 0.7rem;
+    color: white;
+    border-radius: 0.3rem;
+    margin-right: 2rem;
+    background-color: #0077c5;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.icon-button-sign-in {
+    margin-right: 0.5rem;
 }
