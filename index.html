@@ -7,6 +7,7 @@
   <title>Intuit Accounts - Sign Up</title>
   <link rel="stylesheet" href="stylesheet.css">
   <script src="https://use.fontawesome.com/6a167e652a.js"></script>
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32"/>
 </head>
 
 <body>
@@ -36,21 +37,101 @@
   <main class="padding-top-main">
     <article>
       <section>
-        <div>
-          <img src="/assets/intuitlogo.png" alt="intuit-logo" class="intuit-logo">
+        <div class="intuit-logo-container margin-top-logo-intuit margin-botton-logo-intuit">
+          <img src="assets/intuitlogo.png" alt="intuit-logo" class="intuit-logo">
         </div>
-        <div>
-          hola
+        <div class="display-flex text-align-center">
+          <div class="margin-right-icon">
+            <img src="assets/first-icon.png" alt="first-icon" class="image-logo-icon-size">
+          </div>
+          <div>
+            <h3 class="margin-block-start margin-right-h3 font-family-poiret-one">
+              mint
+            </h3>
+          </div>
+          <div class="margin-right-icon">
+            <img src="assets/second-icon.png" alt="second-icon" class="image-logo-icon-size">
+          </div>
+          <div>
+            <h3 class="margin-block-start margin-right-h3 font-family-poiret-one">
+              quickbooks
+            </h3>
+          </div>
+          <div class="margin-right-icon">
+            <img src="assets/third-icon.png" alt="third-icon" class="image-logo-icon-size">
+          </div>
+          <div>
+            <h3 class="margin-block-start margin-right-h3 font-family-poiret-one">
+              turbotax
+            </h3>
+          </div>
         </div>
       </section>
-      <section>
-
+      <section class="text-align-webkit-center">
+        <div class=" background-color-white width-main-section border-solid">
+          <div>
+            <h1 class="font-size-title-form font-color-soft-gray">
+              Create an Intuit account
+            </h1>
+          </div>
+          <div>
+            One account for everything Intuit, including Mint.
+          </div>
+          <div>
+            Learn more
+          </div>
+          <div class="display-table-caption">
+            <form action="#">
+              <label for="email" class="">Email address</label>
+              <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <label for="phone">Phone (recommended)</label>
+              <input type="text" id="phone" name="phone"pattern="++[0-9]">
+              <p>Standard call, messaging or data rates may apply.</p>
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <label for="confirm">Confirm password</label>
+              <input type="password" id="confirm" name="confirm"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <input type="submit" value="Create Account">
+            </form>
+          </div>
+          <div>
+            <p>
+              By clicking Create account, you agree to our
+            </p>
+            <p>
+              Terms and have read and acknowledge our Privacy
+            </p>
+            <p>
+              Statement.
+            </p>
+          </div>
+          <div class="background-color-gray">
+            Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+          </div>
+        </div>
       </section>
     </article>
   </main>
   <footer>
     <nav>
-
+      <div>
+        <div class="display-flex text-align-center">
+          <div class="margin-right-link-footer"><a href="#">Legal</a></div>
+          <div class="margin-right-link-footer"><a href="#">Privacy</a></div>
+          <div><a href="">Security</a></div>
+        </div>
+        <div class="text-align-center-2">
+            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        </div>
+        <div class="text-align-center-2">
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </div>
+        <div class="position-absolute">
+          <button>
+            Privacy Settings
+          </button>
+        </div>
+      </div>
     </nav>
   </footer>
 </body>
