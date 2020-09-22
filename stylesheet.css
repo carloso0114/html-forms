@@ -96,7 +96,7 @@ body {
 }
 
 .width-main-section {
-    width: 35%;
+    width: 24rem;
 }
 
 .text-align-webkit-center {
@@ -126,7 +126,7 @@ body {
 .position-absolute {
     position: absolute;
     bottom: 0;
-    left: 80%;
+    left: 88%;
 }
 
 .font-size-title-form {
@@ -178,9 +178,71 @@ body {
 }
 
 .padding-input {
-    padding-left: 5rem;
+    padding-left: 5.5rem;
     padding-right: 5rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+    border: 1px solid #C1C5C8;
+    margin-bottom: 2rem;
+
 }
 
+.subtext {
+    position: relative;
+    font-size: 0.7rem;
+    right: 3.1rem;
+    bottom: 2.4rem;
+}
+
+.createAccBtn {
+    background: #0077C5;
+    border: none;
+    border-color: #0077C5;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFF;
+    width: 80%;
+    height: 44px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.relative-pos {
+    position: relative;
+    right: 2rem;
+}
+
+.text-style {
+    font-size: 13px;
+    font-style: italic;
+    color: #757575;
+}
+
+.text-deco {
+    text-decoration: none;
+    color: #0077c5;
+    
+}
+.font-size {
+    text-align: center;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: gray;
+    padding:1.5rem;
+}
+.margin-top {
+    margin-top: 1.5rem;
+}
+.text-deco2 {
+    text-decoration: none;
+    color: black;
+}
+.privacyBtn {
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #6B6C72;
+    border-radius: 5px;
+}
