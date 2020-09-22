@@ -133,6 +133,54 @@ body {
     font-size: 1.5rem;
 }
 
-.font-color-soft-gray {
-    color: #4c4c4c;
+.font-size-subtitle {
+    font-size: 0.95rem;
 }
+
+.font-size-learn-more {
+    font-size: 0.8rem;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.color-anchor {
+    color: #0077c5;
+}
+
+.label-location-1 {
+    position: relative;
+    left: -8rem;
+}
+
+.label-location-2 {
+    position: relative;
+    left: -6.3rem;
+}
+
+.label-location-3 {
+    position: relative;
+    left: -8.7rem;
+}
+
+.label-location-4 {
+    position: relative;
+    left: -7.05rem;
+}
+
+.margin-bottom-learn-more {
+    margin-bottom: 1.5rem;
+}
+
+.font-sixe-label {
+    font-size: 0.9rem;
+}
+
+.padding-input {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
