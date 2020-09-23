@@ -243,6 +243,9 @@ body {
   cursor: pointer;
   background-color: #6b6c72;
   border-radius: 5px;
+  position: sticky;
+  float: right;
+  margin-right: 8%;
 }
 
 .point-dissapear {
@@ -253,4 +256,8 @@ body {
 .margin-form {
   margin-left: 38%;
   margin-right: 38%;
+}
+
+.margin-auto {
+  margin: auto;
 }
