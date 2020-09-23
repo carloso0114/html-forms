@@ -261,3 +261,8 @@ body {
 .margin-auto {
   margin: auto;
 }
+
+.password-input-align{
+  position: relative;
+  left: 0.5rem;
+}
