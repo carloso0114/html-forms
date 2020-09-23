@@ -17,7 +17,7 @@ body {
 }
 
 .text-attributes2 {
-  color: #0077C5;
+  color:#0077c5;
   font-size: 12px;
   font-weight: normal;
 }
@@ -140,7 +140,6 @@ body {
   text-align: center;
   font-size: 12px;
   line-height: 1.5;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
 }
 
 .position-absolute {
