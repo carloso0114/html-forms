@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background: #eceef1;
+  color: #4c4c4c;
+}
+
+.text-attributes {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #505050;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.text-attributes2 {
+  color: #0077c5;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.float-right {
+  float: right;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.button-sign-in {
+  padding: 0.5rem;
+  margin-left: 0.7rem;
+  color: white;
+  border-radius: 0.3rem;
+  border-color: #0077c5;
+  margin-right: 2rem;
+  background-color: #0077c5;
+  font-family: 'PT Sans', sans-serif;
+  cursor: pointer;
+  width: 6.6rem;
+}
+
+.icon-button-sign-in {
+  margin-right: 0.5rem;
+}
+
+.intuit-logo {
+  width: 8rem;
+}
+
+.padding-top-main {
+  padding-top: 2.5rem;
+}
+
+.intuit-logo-container {
+  text-align: center;
+}
+
+.image-logo-icon-size {
+  height: 1.5rem;
+}
+
+.margin-right-icon {
+  margin-right: 0.35rem;
+}
+
+.margin-block-start {
+  margin-block-start: 0.00000000000001rem;
+}
+
+.margin-right-h3 {
+  margin-right: 0.5rem;
+}
+
+.text-align-center {
+  justify-content: center;
+}
+
+.font-family-poiret-one {
+  font-family: 'Poiret One', cursive;
+}
+
+.margin-top-logo-intuit {
+  margin-top: 2.5rem;
+}
+
+.margin-botton-logo-intuit {
+  margin-bottom: 1.3rem;
+}
+
+.display-table-caption {
+  display: table-caption;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.background-color-white {
+  background-color: white;
+}
+
+.width-main-section {
+  width: 24rem;
+}
+
+.text-align-webkit-center {
+  text-align: center;
+}
+
+.text-align-initial {
+  text-align: initial;
+}
+
+.background-color-gray {
+  background-color: #eceef1;
+}
+
+.border-solid {
+  border: solid 1px #c7c7c7;
+}
+
+.margin-right-link-footer {
+  margin-right: 1rem;
+}
+
+.text-align-center-2 {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.position-absolute {
+  position: absolute;
+  bottom: 0;
+  left: 88%;
+}
+
+.font-size-title-form {
+  font-size: 1.5rem;
+}
+
+.font-size-subtitle {
+  font-size: 0.95rem;
+}
+
+.font-size-learn-more {
+  font-size: 0.8rem;
+}
+
+.color-anchor {
+  color: #0077c5;
+}
+
+.label-location-1 {
+  position: relative;
+  left: -8rem;
+}
+
+.label-location-2 {
+  position: relative;
+  left: -6.3rem;
+}
+
+.label-location-3 {
+  position: relative;
+  left: -8.7rem;
+}
+
+.label-location-4 {
+  position: relative;
+  left: -7.05rem;
+}
+
+.margin-bottom-learn-more {
+  margin-bottom: 1.5rem;
+}
+
+.font-sixe-label {
+  font-size: 0.9rem;
+}
+
+.padding-input {
+  width: 21rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #c1c5c8;
+  margin-bottom: 2rem;
+  border-radius: 0.2rem;
+}
+
+.subtext {
+  position: relative;
+  font-size: 0.7rem;
+  right: 3.1rem;
+  bottom: 2.4rem;
+}
+
+.createAccBtn {
+  background: #0077c5;
+  border: none;
+  border-color: #0077c5;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  width: 20.6rem;
+  height: 44px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+.relative-pos {
+  position: relative;
+  right: 2rem;
+}
+
+.text-style {
+  font-size: 13px;
+  font-style: italic;
+  color: #757575;
+}
+
+.text-deco {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.font-size {
+  text-align: center;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: gray;
+  padding: 1.5rem;
+}
+
+.margin-top {
+  margin-top: 1.5rem;
+}
+
+.text-deco2 {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.privacyBtn {
+  color: #fff;
+  padding: 10px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #6b6c72;
+  border-radius: 5px;
+  position: fixed;
+  left: 88%;
+  bottom: 0.05%;
+}
+
+.point-dissapear {
+  font-size: 0.000000001rem;
+  padding: 0.000000000001rem;
+}
+
+.margin-form {
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.password-input-align {
+  position: relative;
+  left: 0.5rem;
+}
+
+.font-size-one-account {
+  font-size: 0.8rem;
+}
+
+.div-margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.div-margin-top {
+  margin-top: -3rem;
+  margin-bottom: -1rem;
+}
+
+.margin-left-label-password {
+  margin-left: -1rem;
+}
+
+.margin-block-end-footer {
+  margin-block-end: 0.3rem;
+}
+
+.margin-block-start-footer {
+  margin-block-start: 0.3rem;
+}
+
+.padding-block-div {
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+  margin-bottom: -1rem;
+}
