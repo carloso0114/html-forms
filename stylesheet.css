@@ -176,10 +176,11 @@ body {
 .padding-input {
   padding-left: 5.5rem;
   padding-right: 5rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border: 1px solid #c1c5c8;
   margin-bottom: 2rem;
+  border-radius: 0.2rem;
 }
 
 .subtext {
@@ -265,4 +266,33 @@ body {
 .password-input-align {
   position: relative;
   left: 0.5rem;
+}
+
+.font-size-one-account {
+  font-size: 0.8rem;
+}
+
+.div-margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.div-margin-top {
+  margin-top: -3rem;
+}
+
+.margin-left-label-password {
+  margin-left: -1rem;
+}
+
+.margin-block-end-footer {
+  margin-block-end: 0.3rem;
+}
+
+.margin-block-start-footer {
+  margin-block-start: 0.3rem;
+}
+
+.padding-block-div {
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
 }
